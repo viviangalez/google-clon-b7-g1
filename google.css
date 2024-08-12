@@ -1,0 +1,150 @@
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+body {
+    margin: 0px;
+    
+}
+
+.icono-buscador {
+    display: inline-block;
+    width: 20px;
+    margin: 0px;
+}
+
+.icono-microfono {
+    display: inline-block;
+    width: 20px;
+    margin: 0px;
+}
+
+.icono-camara {
+    display: inline-block;
+    width: 20px;
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline;
+    padding: 15px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+footer p{
+    padding: 15px;
+    margin: 0px;
+}
+
+footer{
+    background-color: #f2f2f2;
+}
+
+.linea-arriba {
+    border-top: 1px solid #dadce0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+#perfil {
+    border-radius: 50%;
+    width: 50%;
+}
+
+main {
+    display: flex;
+    justify-content:center;
+    height: 65vh;
+    align-items: flex-start;
+    padding-top: 8vh;
+}
+
+article {
+    text-align: center;
+}
+
+#google img {
+    width: 272px;
+}
+
+#buscador {
+     border:  1px solid #dfe1e5;
+     border-radius: 24px;
+     display: flex;
+     justify-content: center;
+     padding: 10px 24px;
+     align-items: flex-end;
+     width: 520px;
+     margin: 1.5em;
+}
+
+#buscador:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
+#buscador input {
+    flex-grow:1;
+    border: none;
+    outline: none;
+}
+
+#botones button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    height: 36px;
+    margin: 11px 4px;
+    border-radius: 4px;
+
+}
+
+#botones button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#botones {
+    padding-top: 3px
+}
+
+footer a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+header a {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 13px;
+}
